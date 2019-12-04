@@ -1,5 +1,5 @@
 function showMenu() {
-  $('#mainNavigation').css('width', '85%');
+  $('#mainNavigation').css('width', '95%');
   $('#openNav').hide();
   $('#closeNav').show();
 }
