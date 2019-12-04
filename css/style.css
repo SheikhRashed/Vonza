@@ -120,8 +120,8 @@ button.btn-primary {
   #header.active {
     background: #fff; }
 
-#header .navbar {
-  padding: 0; }
+/* #header .navbar {
+  padding: 0; } */
 
 #header .navbar .navbar-left {
   width: 65%;
