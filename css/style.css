@@ -104,7 +104,7 @@ button.btn-primary {
 
 /** Common **/
 /** Header **/
-#header {
+#header  {
   padding: 25px 0 25px;
   position: fixed;
   top: 0;
@@ -113,9 +113,6 @@ button.btn-primary {
   z-index: 99; }
   #header.active {
     background: #fff; }
-
-#header .container-fluid {
-  padding: 0; }
 
 #header .navbar {
   padding: 0; }
@@ -215,7 +212,7 @@ button.btn-primary {
 
 #landing-main {
   background: url("./../images/lading-slide-bg.png") bottom center no-repeat;
-  background-size: 100% 100%;
+  background-size: 100%;
   padding-top: 150px; }
 
 .starting-widget h2 {
@@ -1150,7 +1147,9 @@ form .field-error {
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
-  padding: 60px 60px 60px 40%; }
+  /* padding: 60px 60px 60px 40%;  */
+
+}
 
 .abt-img-holder {
   width: 230%;
@@ -2005,6 +2004,8 @@ form .field-error {
     .team-section,
     .example-section {
       padding: 30px 15px; } }
+
+
   .team-section .team-box,
   .team-section .example-box,
   .example-section .team-box,
