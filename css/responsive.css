@@ -3,18 +3,14 @@
     .social-list {
         margin-left: -50px !important;
     }
+
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
-
-@media (max-width: 575px) {
-   
-  
-}
-
-/* Small devices (landscape phones upto 767px) */
-@media (max-width: 768px) {
-   
+@media (min-width:420px) and (max-width: 570px) {
+    .contacts-row {
+        margin-left: 40px;
+    }
 }
 /* medium devices (landscape phones upto 991px) */
 @media (max-width: 991px) {
@@ -26,8 +22,10 @@
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767px) {
-   
+@media (min-width: 575px) and (max-width: 767px) {
+   .contacts-row {
+       margin-left: 100px;
+   }
  }
 
 /* Medium devices (tablets, 768px and up) */
@@ -37,7 +35,7 @@
  }
 /* Medium devices (tablets, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199px) { 
-    
+   
  }
 
 /* Large devices (desktops and laptop) */
@@ -50,7 +48,13 @@
    
  }
 
+
+ @media(min-width: 991px) {
+    .m-nav {
+        margin-left: 295px !important;
+        width: 100% !important;
+    }
+ }
  /* For Train large device(large desktops, 1200px and up */
  @media(min-width: 1200px) and (max-width: 1399px) {
-   
  }
