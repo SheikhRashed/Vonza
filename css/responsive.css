@@ -1,6 +1,8 @@
 /* Extra small devices (portrait phones, less than 320px) */
 @media(max-width: 320px) {
-   
+    .social-list {
+        margin-left: -50px !important;
+    }
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
