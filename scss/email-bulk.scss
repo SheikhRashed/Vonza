@@ -1,0 +1,68 @@
+.form.form-bulk-email {
+  .form-field-holder {max-width: 86%;}
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  .input-group-select {border: 1px solid #cecece !important;border-radius: 4px; display: flex;align-items: center;position: relative;}
+  .input-group-select:before {
+    display: inline;
+    content: '';
+    background: url('../images/icon-arrow-down.png') no-repeat center;
+    border-right: 1px solid #cecece;
+    height: 45px;
+    width: 45px;
+  }
+  .select2-container {padding-left: 30px;width: calc(100% - 45px) !important;}
+  .select2-container .select2-search--inline .select2-search__field { margin-top: 8px; color: rgba(47, 51, 65, 0.4);font-size: 14px;}
+  .select2-container--default .select2-selection--multiple .select2-selection__rendered {margin: 3px 0 0 !important;}
+  .select2-container .selection > span {border-width: 0 !important;line-height: 2 !important;}
+  .label {
+    font-size: 14px;
+    color: rgb(255, 127, 69);
+    line-height: 1.2;
+    text-align: left;
+  }
+  .ck.ck-editor {border: 1px solid #cecece;border-radius: 4px;overflow: hidden;}
+  .ck.ck-toolbar {border-width: 0;border-bottom-width: 1px !important;border-bottom-color: #cecece;border-bottom-style: solid;background: #fff !important;}
+  .ck.ck-editor__main > .ck-editor__editable{
+    min-height: 232px;
+    border-width: 0;
+  }
+  .sender-info {
+    .form-text {
+      font-size: 14px;
+      color: rgb(91, 91, 91);
+      line-height: 1.2;
+    }
+    .sender-email {
+      font-size: 14px;
+      color: rgba(91, 91, 91, 0.6);
+      line-height: 1.2;
+    }
+  }
+
+  .btns-group {
+    text-align: right;
+    .btn {
+      margin: 0 0 0 20px;
+    }
+  }
+
+  .message-editor .form-control {
+    border: 1px solid rgb(221, 229, 236);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 917px;
+    height: 277px;
+  }
+
+  .disable-check {display: flex;align-items: center;}
+  .disable-text {
+    font-size: 14px;
+    color: rgb(155, 155, 155);
+    line-height: 1.2;
+    margin: 2px 0 0 10px;
+    user-select: none;
+  }
+
+}

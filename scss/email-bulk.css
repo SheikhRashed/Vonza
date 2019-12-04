@@ -1,0 +1,123 @@
+.form.form-bulk-email .form-field-holder {
+  max-width: 86%;
+}
+
+.form.form-bulk-email .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form.form-bulk-email .input-group-select {
+  border: 1px solid #cecece !important;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.form.form-bulk-email .input-group-select:before {
+  display: inline;
+  content: '';
+  background: url("../images/icon-arrow-down.png") no-repeat center;
+  border-right: 1px solid #cecece;
+  height: 45px;
+  width: 45px;
+}
+
+.form.form-bulk-email .select2-container {
+  padding-left: 30px;
+  width: calc(100% - 45px) !important;
+}
+
+.form.form-bulk-email .select2-container .select2-search--inline .select2-search__field {
+  margin-top: 8px;
+  color: rgba(47, 51, 65, 0.4);
+  font-size: 14px;
+}
+
+.form.form-bulk-email .select2-container--default .select2-selection--multiple .select2-selection__rendered {
+  margin: 3px 0 0 !important;
+}
+
+.form.form-bulk-email .select2-container .selection > span {
+  border-width: 0 !important;
+  line-height: 2 !important;
+}
+
+.form.form-bulk-email .label {
+  font-size: 14px;
+  color: #ff7f45;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.form.form-bulk-email .ck.ck-editor {
+  border: 1px solid #cecece;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.form.form-bulk-email .ck.ck-toolbar {
+  border-width: 0;
+  border-bottom-width: 1px !important;
+  border-bottom-color: #cecece;
+  border-bottom-style: solid;
+  background: #fff !important;
+}
+
+.form.form-bulk-email .ck.ck-editor__main > .ck-editor__editable {
+  min-height: 232px;
+  border-width: 0;
+}
+
+.form.form-bulk-email .sender-info .form-text {
+  font-size: 14px;
+  color: #5b5b5b;
+  line-height: 1.2;
+}
+
+.form.form-bulk-email .sender-info .sender-email {
+  font-size: 14px;
+  color: rgba(91, 91, 91, 0.6);
+  line-height: 1.2;
+}
+
+.form.form-bulk-email .btns-group {
+  text-align: right;
+}
+
+.form.form-bulk-email .btns-group .btn {
+  margin: 0 0 0 20px;
+}
+
+.form.form-bulk-email .message-editor .form-control {
+  border: 1px solid #dde5ec;
+  border-radius: 5px;
+  background-color: white;
+  width: 917px;
+  height: 277px;
+}
+
+.form.form-bulk-email .disable-check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form.form-bulk-email .disable-text {
+  font-size: 14px;
+  color: #9b9b9b;
+  line-height: 1.2;
+  margin: 2px 0 0 10px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+/*# sourceMappingURL=email-bulk.css.map */

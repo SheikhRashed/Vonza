@@ -1,0 +1,205 @@
+.hero-features {
+  background: #e2effc url('../images/features/hero.png') no-repeat 100%;
+}
+
+.features-main {
+  .sec {
+    padding: 200px 0 100px;
+
+    &.features-section {
+      background: url('../images/features/sec-bg.png') no-repeat;
+      background-position: 50% 100%;
+      background-size: 100% 70%;
+    }
+  }
+  .sec-header {
+    text-align: center;
+    h2 {
+      font-size: 13px;
+      color: rgba(22, 44, 88, 0.4);
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 2.769;
+    }
+    p {
+      font-size: 28px;
+      color: rgb(22, 44, 88);
+      line-height: 1.286;
+      text-align: center;
+    }
+  }
+}
+.feature-box.signup {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h3 {
+    margin-bottom: 0;
+    line-height: 24px;
+  }
+  p {
+    margin: 0 0 30px;
+  }
+  .btn {
+    margin-bottom: 15px;
+    max-width: 160px;
+  }
+  .box-icon {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+.sec-custom {
+  position: relative;
+
+  .section-bg {
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+  }
+
+  .quote-holder .quote-box {
+    flex-grow: 1;
+    position: relative;
+    .fb-icon {
+      position: absolute;
+      top: 20px;
+      left: -140px;
+    }
+    .blog-icon {
+      position: absolute;
+      top: 140px;
+      right: -40px;
+    }
+  }
+  .quote-holder .quote-box .quotes {
+    top: 61%;
+  }
+
+  &.integration {
+    .quote-box {
+      .hear-icon {
+        position: absolute;
+        left: 20px;
+        top: 540px;
+      }
+      .record-icon {
+        position: absolute;
+        left: -110px;
+        top: 350px;
+      }
+    }
+  }
+
+  .cust-sec-3 {
+    .link-icon {
+      position: absolute;
+      left: -110px;
+      top: 350px;
+    }
+    .twitter-icon {
+      position: absolute;
+      left: 20px;
+      top: 540px;
+    }
+  }
+}
+
+.sec-marketing.sec {
+  padding: 45px 0 0;
+}
+.sec.sec-analytics {
+  padding: 150px 0 0;
+}
+.generate-profit-form {
+  padding: 0 0 0;
+}
+.generate-profit-form-2 {
+  padding: 150px 0;
+}
+
+.sec-learning {
+  .sub-sec-1 {
+    .unique-list {
+      max-width: 500px;
+    }
+  }
+  .sec-header {
+    margin: 0 0 100px;
+  }
+  &.sec {
+    padding: 100px 0;
+  }
+}
+.sec-hosting {
+  .row > div {
+    margin: 0 0 30px;
+  }
+  &.sec {
+    padding: 0 0 0;
+  }
+  .sec-header {
+    margin: 0 0 100px;
+  }
+  .feature-box h3 {
+    margin: 15px 0 0;
+  }
+  .feature-box p {
+    margin: 20px 0 0;
+  }
+}
+.sec-analytics {
+  .sub-sec-1 .bullet-list {
+    max-width: 500px;
+    padding: 150px 0;
+  }
+}
+.learning-sec-2 {
+  .quote-box {
+    position: relative;
+  }
+  .quote-text {
+    z-index: 10;
+  }
+  .quotes {
+    position: absolute;
+    top: 58% !important;
+  }
+  .dice {
+    position: absolute;
+    top: 30px;
+    right: -60px;
+  }
+  .share {
+    position: absolute;
+    top: 30px;
+    left: -40px;
+  }
+  .exchange {
+    position: absolute;
+    bottom: -50px;
+    left: 10px;
+    z-index: 8;
+  }
+  .gear {
+    position: absolute;
+    bottom: 87px;
+    right: -70px;
+  }
+}
+
+.sub-sec-3 {
+  .bullet-list {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+.sub-sec-4 {
+  .container {
+    background: url('../images/features/map.png') no-repeat 100%;
+  }
+}

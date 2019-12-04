@@ -1,0 +1,16 @@
+input.error {
+    border-color: red !important;
+}
+
+.input-feedback {
+    color: rgb(235, 54, 54);
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.alert {font-size: 14px;}
+.alert .date{color:#984144}
+.alert.alert-danger{background:#FFEEED;border-color:#FAA9A9}
+.alert.alert-primary{color:#2D619F;background:#E0F4FF;border-color:#A2C1FF}
+.alert.alert-primary a{color:#2d619f}
+.alert.alert-primary a:hover,.alert.alert-primary a:focus{text-decoration:none;color:#4c87cc}
