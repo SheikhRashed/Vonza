@@ -7,9 +7,101 @@
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
+
+@media(max-width: 576px)  {
+    .sec-hosting .sec-header {
+        margin: 0px 0 20px !important;
+    }
+    .features-main .sec-header p {
+        font-size: 22px !important;
+    }
+    .sec-analytics .sub-sec-1 .bullet-list {
+        padding: 70px 0 !important;
+    }
+    .t-left {
+        margin-left: -50px !important;
+    }
+    .c-width {
+        width: 400px !important;
+        margin-left: -115px !important;
+    }
+    
+    .features-section {
+        padding: 60px 0px !important;
+    }
+
+    .get-started-section {
+        padding: 0px !important;
+    }
+
+    .i-margin {
+        margin-left: -35px;
+    }
+    .get-start-steps {
+        padding: 100px 0 0px !important;
+    }
+    .select-business-type-form h3 {
+        font-size: 22px !important;
+    }
+
+    .what-make-vonza-unique {
+        padding: 40px 0 !important;
+    }
+
+    .setp-2-section {
+        padding: 40px 0 !important;
+    }
+
+    .support-section {
+        padding: 20px 0 !important;
+    }
+
+    .generate-profit-form {
+        padding: 60px 0 !important;
+    }
+
+    #footer {
+        padding: 20px 0 0 0 !important;
+    }
+
+    a.btn.btn-primary, button.btn.btn-primary {
+        padding: 2px 5px !important;
+    }
+    #hero-block.hero-about {
+        min-height: 530px !important;
+    }
+
+    .main-about .info-section {
+        padding: 60px 0 100px;
+    }
+
+    .c-box {
+        margin-left: 10% !important;
+    }
+
+    .n-margin {
+        margin-left: 20px !important;
+    }
+    .mb-80 {
+        margin-bottom: 0px !important; 
+    }
+    .features-main .sec {
+        padding: 0px 0 0px !important;
+    }
+}
+
+
 @media (min-width:420px) and (max-width: 570px) {
     .contacts-row {
         margin-left: 40px;
+    }
+   
+}
+
+
+@media(max-width: 767px) {
+    .mb-110 {
+        margin-bottom: -35px !important;
     }
 }
 /* medium devices (landscape phones upto 991px) */
@@ -35,7 +127,10 @@
  }
 /* Medium devices (tablets, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199px) { 
-   
+    .m-nav {
+        margin-left: 68px !important;
+        width: 100% !important;
+    }
  }
 
 /* Large devices (desktops and laptop) */
@@ -45,15 +140,18 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-   
+      .m-nav {
+        margin-left: 295px !important;
+        width: 100% !important;
+    }
  }
 
 
  @media(min-width: 991px) {
-    .m-nav {
+    /* .m-nav {
         margin-left: 295px !important;
         width: 100% !important;
-    }
+    } */
  }
  /* For Train large device(large desktops, 1200px and up */
  @media(min-width: 1200px) and (max-width: 1399px) {
