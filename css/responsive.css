@@ -88,6 +88,22 @@
     .features-main .sec {
         padding: 0px 0 0px !important;
     }
+
+    .sec-custom .cust-sec-3 .twitter-icon {
+        top: 518px !important;
+    }
+
+    .quote-holder .quote-box .quotes {
+        left: 13px !important;
+    }
+
+    .learning-sec-2 .exchange {
+        top: 95% !important;
+    }
+    .testimonail-content {
+        margin-left: 36px !important;
+        width: 100% !important;
+    }
 }
 
 
