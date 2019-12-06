@@ -104,6 +104,16 @@
         margin-left: 36px !important;
         width: 100% !important;
     }
+    ul li a {
+        padding: 0px 0px !important;
+        
+    }
+    .footer-widget h3 {
+        margin: 0 0 20px !important; 
+    }
+    .footer-widget ul li {
+        margin: 0 0 16px !important;
+    }
 }
 
 
